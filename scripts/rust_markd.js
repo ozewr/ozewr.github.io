@@ -1,5 +1,6 @@
 //hljs.initHighlightingOnLoad();
 document.title = "Pages";
+console.log(global_var)
 var xhr = new XMLHttpRequest();
         xhr.open('GET', '/note/ErrorHanding_for_rust.md', true);
         xhr.onreadystatechange = function () {
