@@ -1,5 +1,7 @@
+//hljs.initHighlightingOnLoad();
+document.title = "Pages";
 var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/rust/ErrorHanding_for_rust.md', true);
+        xhr.open('GET', '/note/ErrorHanding_for_rust.md', true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 // 成功读取文件后，将内容传递给 marked 函数处理成 HTML
