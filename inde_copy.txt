@@ -11,14 +11,7 @@
     <script> var global_var ="aaa"; </script>
     <h1> title </h1>
     <ul> 
-      <h2> Labs </h2>
-        <li><button class="niceButton" onclick="redirectToOtherPage('/note/lab1.md')">Lab1: user utils</button> </li>
-        <li><button class="niceButton" onclick="redirectToOtherPage('/note/lab2.md')">Lab2: system calls</button> </li>  
-        <li><button class="niceButton" onclick="redirectToOtherPage('/note/lab3.md')">Lab3: page tables</button> </li>  
-        <li><button class="niceButton" onclick="redirectToOtherPage('/note/lab4.md')">Lab4: traps</button> </li> 
-        <li><button class="niceButton" onclick="redirectToOtherPage('/note/lab5.md')">Lab5: cow</button> </li> 
-        <li><button class="niceButton" onclick="redirectToOtherPage('/note/lab6.md')">Lab6: locks</button> </li> 
-      <h2> Tips </h2>
+      <h2> 2024.2 </h2>
         <li><button class="niceButton" onclick="redirectToOtherPage('/note/ErrorHanding_for_rust.md')">Error Handing in Rust</button> </li>
         <li><button class="niceButton" onclick="redirectToOtherPage('/note/Rust并发笔记.md')">Rust 并发笔记</button> </li>  
         <li><button class="niceButton" onclick="redirectToOtherPage('/note/RV32I.md')">Riscv RV32I</button> </li>  
